@@ -15,7 +15,7 @@ const TodoItem = ({ name, id, done }) => {
         color="primary"
         inputProps={{ "aria-label": "secondary checkbox" }}
       />
-      <p className={done && "line-through"}>{name}</p>
+      <p className={done ? "line-through" : ""}>{name}</p>
     </div>
   );
 };
