@@ -22,8 +22,8 @@ const App = () => {
             />
           ))}
         </div>
+        <Input />
       </div>
-      <Input />
     </div>
   );
 };
